@@ -1,0 +1,19 @@
+# Virtual environment
+venv/
+.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Local SQLite database & user state
+*.db
+*.sqlite3
+
+# PyInstaller build artifacts
+build/
+dist/
+*.spec
+
+# Inno Setup compiled installer output
+Output/
