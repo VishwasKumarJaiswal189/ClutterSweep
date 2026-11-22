@@ -8,7 +8,10 @@ A native Windows desktop utility built with **PySide6** for fast visual file tri
 - **Persistent Review State:** Tracks `Unvisited`, `Visited`, and `Deleted` files in a local SQLite database inside `%LOCALAPPDATA%\ClutterSweep`.
 - **Look-Ahead Preloading:** Pre-decodes upcoming unvisited files in a background thread pool for zero-latency switching.
 - **Safe Deletion:** Moves deleted files to the Windows Recycle Bin via `Send2Trash`.
+## Download & Install (Windows 10 / 11)
 
+- **[Download ClutterSweep-Setup-v1.0.0.exe](https://github.com/VishwasKumarJaiswal189/ClutterSweep/releases/download/v1.0.0/ClutterSweep-Setup-v1.0.0.exe)** — Direct Windows installer
+- **[View All Releases](https://github.com/VishwasKumarJaiswal189/ClutterSweep/releases)** — Release notes & installer versions
 ## Run From Source
 ```bash
 python -m venv venv
@@ -16,10 +19,7 @@ venv\Scripts\activate
 pip install -r requirements.txt
 python main.py
 
-## Download & Install (Windows 10 / 11)
 
-- **[Download ClutterSweep-Setup-v1.0.0.exe](https://github.com/VishwasKumarJaiswal189/ClutterSweep/releases/download/v1.0.0/ClutterSweep-Setup-v1.0.0.exe)** — Direct Windows installer
-- **[View All Releases](https://github.com/VishwasKumarJaiswal189/ClutterSweep/releases)** — Release notes & installer versions
 
 ### Quick Setup
 1. Download **`ClutterSweep-Setup-v1.0.0.exe`** using the link above.
